@@ -1,3 +1,4 @@
+package Java;
 public class Exam  extends Students{
     int cia1,cia2;
 

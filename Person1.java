@@ -1,3 +1,4 @@
+package Java;
 public class Person1 {
     String name;
     String surname;

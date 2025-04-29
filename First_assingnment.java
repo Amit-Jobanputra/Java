@@ -8,6 +8,7 @@
  *
  * @author admin
  */
+package Java;
 import java.util.*;
 public class First_assingnment {
     public static void main(String []args)
