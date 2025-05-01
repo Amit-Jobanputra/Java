@@ -11,8 +11,10 @@ public class mysql {
             st=con.createStatement();
 //            st.execute("Create Table stud(Roll int, Name varchar(25))");
 //            System.out.println("Table Created");
-            int ans=st.executeUpdate("insert into stud values(1,'Amit')");
-            System.out.println(ans+" Record Inserted");
+//            int ans=st.executeUpdate("insert into stud values(1,'Amit')");
+//            System.out.println(ans+" Record Inserted");
+            st.execute("Create Database amit");
+            System.out.println("Database Created");
             con.close();
         }
         catch(Exception e){

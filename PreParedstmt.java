@@ -30,12 +30,12 @@ public class PreParedstmt {
             //       String s = rs.getString(2);
             //       System.out.println("Roll Number :-"+b+"Name :-"+s);
             //   }
-            pst = con.prepareStatement("Delete From stud where Roll =?")
+            pst = con.prepareStatement("Delete From stud where Roll =?");
             System.out.println("Enter Roll to Get The Recorde :-");
             int a = sc.nextInt();
             pst.setInt(1, a);
-            int a = pst.executeUpdate();
-            System.out.println(a+" Record Deleted")
+            int b = pst.executeUpdate();
+            System.out.println(b +" Record Deleted");
 
             con.close();
             
